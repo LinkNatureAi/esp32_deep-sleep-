@@ -27,7 +27,7 @@ void setup() {
 }
 
 void loop() {
-  // Check if the button is pressed
+ 
   if (digitalRead(BUTTON_PIN) == LOW) {
     Serial.println("Button is pressed!");
     digitalWrite(LED_PIN, HIGH); // Turn on the LED
